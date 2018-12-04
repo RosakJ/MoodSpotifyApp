@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.Button;
 
 public class QuestionsPage extends Activity {
-    Button button;
+    Button home;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
