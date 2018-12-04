@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:label="MoodSpotifyApp"
+            android:name=".QuestionsPage" >
+
+        </activity>
     </application>
 
 </manifest>

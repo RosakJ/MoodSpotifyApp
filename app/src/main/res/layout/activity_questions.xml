@@ -8,20 +8,24 @@
 
     <Button
         android:id="@+id/answer1"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="18dp"
         android:layout_marginLeft="18dp"
+        android:layout_marginTop="13dp"
         android:layout_marginEnd="18dp"
         android:layout_marginRight="18dp"
+        android:layout_marginBottom="8dp"
         android:text="Answer 1"
+        app:layout_constraintBottom_toTopOf="@+id/answer2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="259dp" />
+        app:layout_constraintTop_toBottomOf="@+id/question" />
 
     <Button
         android:id="@+id/answer2"
-        android:layout_width="347dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginLeft="18dp"
@@ -29,12 +33,13 @@
         android:layout_marginRight="18dp"
         android:text="Answer 2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="315dp" />
+        tools:layout_editor_absoluteY="270dp" />
 
     <Button
         android:id="@+id/answer3"
-        android:layout_width="344dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginLeft="18dp"
@@ -42,12 +47,13 @@
         android:layout_marginRight="18dp"
         android:text="Answer 3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="373dp" />
+        tools:layout_editor_absoluteY="328dp" />
 
     <Button
         android:id="@+id/answer4"
-        android:layout_width="339dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginLeft="18dp"
@@ -55,8 +61,9 @@
         android:layout_marginRight="18dp"
         android:text="Answer 4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="432dp" />
+        tools:layout_editor_absoluteY="387dp" />
 
     <Button
         android:id="@+id/button5"
