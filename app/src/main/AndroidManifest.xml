@@ -21,6 +21,11 @@
             android:name=".QuestionsPage" >
 
         </activity>
+        <activity
+            android:label="MoodSpotifyApp"
+            android:name=".SuggestedSong" >
+
+        </activity>
     </application>
 
 </manifest>
